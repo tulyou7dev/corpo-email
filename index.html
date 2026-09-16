@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Inscrição confirmada | Hotel Blindado</title>
+  <title>Hotel Blindado</title>
 
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
     body {
-      margin: 0 !important;
-      padding: 0 !important;
-      background-color: #f5f7fb;
+      margin: 0;
+      padding: 0;
+      background: #f3f5f9;
+      font-family: 'Poppins', Arial, sans-serif;
     }
 
     table {
@@ -20,8 +22,8 @@
     }
 
     img {
-      border: 0;
       display: block;
+      border: 0;
       max-width: 100%;
     }
 
@@ -29,14 +31,10 @@
       text-decoration: none;
     }
 
-    @media only screen and (max-width: 640px) {
+    @media only screen and (max-width: 620px) {
 
       .email-container {
         width: 100% !important;
-      }
-
-      .email-card {
-        border-radius: 0 !important;
       }
 
       .mobile-padding {
@@ -44,51 +42,54 @@
         padding-right: 22px !important;
       }
 
-      .titulo-confirmacao {
-        font-size: 26px !important;
-        line-height: 32px !important;
+      .main-title {
+        font-size: 27px !important;
+        line-height: 1.22 !important;
       }
 
-      .texto-principal {
-        font-size: 16px !important;
-        line-height: 25px !important;
+      .main-text {
+        font-size: 14px !important;
+        line-height: 1.65 !important;
       }
 
-      .info-texto {
-        font-size: 15px !important;
+      .logo-hotel {
+        width: 155px !important;
       }
 
-      .botao-email {
+      .logo-foco {
+        width: 90px !important;
+      }
+
+      .info-column {
+        display: block !important;
         width: 100% !important;
-        box-sizing: border-box !important;
-        text-align: center !important;
+        padding: 7px 0 !important;
+        text-align: left !important;
       }
 
-      .logo-realizacao {
-        max-width: 125px !important;
+      .realizacao-logo {
+        width: 120px !important;
+        max-width: 120px !important;
+      }
+
+      .cta-button {
+        display: block !important;
+        width: auto !important;
+        text-align: center !important;
       }
     }
   </style>
 </head>
 
 
-<body
-  style="
-    margin:0;
-    padding:0;
-    background-color:#f5f7fb;
-    font-family:Arial, Helvetica, sans-serif;
-  "
->
+<body>
 
-
-  <!-- PREHEADER OCULTO -->
-
+  <!-- PREHEADER -->
   <div
     style="
       display:none;
       font-size:1px;
-      color:#f5f7fb;
+      color:#f3f5f9;
       line-height:1px;
       max-height:0;
       max-width:0;
@@ -96,11 +97,9 @@
       overflow:hidden;
     "
   >
-    Nos vemos dia 24/09, às 19h. Entre no grupo do WhatsApp e aproveite seus 3 convites.
+    Um encontro online para quem quer identificar riscos trabalhistas antes que eles se tornem um problema na operação do hotel.
   </div>
 
-
-  <!-- ESTRUTURA EXTERNA -->
 
   <table
     role="presentation"
@@ -108,715 +107,121 @@
     cellpadding="0"
     cellspacing="0"
     border="0"
-    bgcolor="#f5f7fb"
+    style="background:#f3f5f9;"
   >
 
     <tr>
 
       <td
         align="center"
-        style="padding:40px 14px;"
+        style="padding:30px 12px;"
       >
 
 
-        <!-- CONTAINER -->
+        <!-- =================================================
+             CONTAINER PRINCIPAL
+        ================================================== -->
 
         <table
           role="presentation"
-          width="620"
+          width="600"
           cellpadding="0"
           cellspacing="0"
           border="0"
-          class="email-container email-card"
+          class="email-container"
           style="
-            width:100%;
-            max-width:620px;
-            background-color:#ffffff;
-            border-radius:24px;
+            width:600px;
+            max-width:600px;
+            background:#ffffff;
+            border-radius:22px;
             overflow:hidden;
-            box-shadow:0 10px 35px rgba(8,9,91,0.07);
+            box-shadow:0 14px 40px rgba(8,20,70,0.08);
           "
         >
 
 
-          <!-- ===============================
-               LOGO HOTEL BLINDADO
-          ================================ -->
+          <!-- =================================================
+               IMAGEM DE TOPO CLICÁVEL
+          ================================================== -->
 
           <tr>
 
             <td
-              align="center"
-              class="mobile-padding"
               style="
-                padding:42px 45px 30px;
+                padding:0;
+                margin:0;
+                background:#09145d;
               "
             >
 
-              <img
-                src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$nv79tggesw8"
-                alt="Hotel Blindado"
-                width="260"
+              <a
+                href="https://conteudo.registroumarcas.com.br/hotel-blindado"
+                target="_blank"
                 style="
-                  width:100%;
-                  max-width:260px;
-                  height:auto;
-                  margin:0 auto;
+                  display:block;
+                  margin:0;
+                  padding:0;
                 "
               >
 
-            </td>
+                <img
+                  src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789560668/$ppgn4pr669"
+                  alt="Hotel Blindado"
+                  width="600"
+                  style="
+                    display:block;
+                    width:100%;
+                    max-width:600px;
+                    height:auto;
+                    margin:0;
+                    padding:0;
+                  "
+                >
 
-          </tr>
-
-
-          <!-- ===============================
-               CONFIRMAÇÃO
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding"
-              style="
-                padding:0 45px 30px;
-              "
-            >
-
-              <table
-                role="presentation"
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-              >
-
-                <tr>
-
-                  <td
-                    align="center"
-                    bgcolor="#163DF4"
-                    style="
-                      background-color:#163DF4;
-                      border-radius:999px;
-                      padding:13px 22px;
-                    "
-                  >
-
-                    <span
-                      class="titulo-confirmacao"
-                      style="
-                        color:#ffffff;
-                        font-size:31px;
-                        line-height:38px;
-                        font-weight:400;
-                        letter-spacing:-0.8px;
-                      "
-                    >
-                      Inscrição confirmada!
-                    </span>
-
-                  </td>
-
-                </tr>
-
-              </table>
+              </a>
 
             </td>
 
           </tr>
 
 
-          <!-- ===============================
-               TEXTO PRINCIPAL
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding texto-principal"
-              style="
-                padding:0 45px 25px;
-                color:#171717;
-                font-size:17px;
-                line-height:27px;
-              "
-            >
-
-              Sua inscrição no
-              <strong style="color:#08095B;">
-                Hotel Blindado
-              </strong>
-              está confirmada.
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               INFORMAÇÕES DO EVENTO
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding"
-              style="
-                padding:0 45px 30px;
-              "
-            >
-
-              <table
-                role="presentation"
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-                style="
-                  background-color:#F3F6FF;
-                  border-radius:18px;
-                "
-              >
-
-
-                <!-- DATA -->
-
-                <tr>
-
-                  <td
-                    width="42"
-                    valign="middle"
-                    style="
-                      padding:22px 0 9px 22px;
-                      font-size:21px;
-                    "
-                  >
-                    📅
-                  </td>
-
-                  <td
-                    class="info-texto"
-                    style="
-                      padding:22px 22px 9px 10px;
-                      color:#171717;
-                      font-size:16px;
-                      line-height:23px;
-                    "
-                  >
-
-                    <strong style="color:#08095B;">
-                      Data:
-                    </strong>
-
-                    24/09 (quinta-feira)
-
-                  </td>
-
-                </tr>
-
-
-                <!-- HORÁRIO -->
-
-                <tr>
-
-                  <td
-                    width="42"
-                    valign="middle"
-                    style="
-                      padding:9px 0 9px 22px;
-                      font-size:21px;
-                    "
-                  >
-                    🕐
-                  </td>
-
-                  <td
-                    class="info-texto"
-                    style="
-                      padding:9px 22px 9px 10px;
-                      color:#171717;
-                      font-size:16px;
-                      line-height:23px;
-                    "
-                  >
-
-                    <strong style="color:#08095B;">
-                      Horário:
-                    </strong>
-
-                    19h
-
-                  </td>
-
-                </tr>
-
-
-                <!-- FORMATO -->
-
-                <tr>
-
-                  <td
-                    width="42"
-                    valign="middle"
-                    style="
-                      padding:9px 0 22px 22px;
-                      font-size:21px;
-                    "
-                  >
-                    💻
-                  </td>
-
-                  <td
-                    class="info-texto"
-                    style="
-                      padding:9px 22px 22px 10px;
-                      color:#171717;
-                      font-size:16px;
-                      line-height:23px;
-                    "
-                  >
-
-                    <strong style="color:#08095B;">
-                      Formato:
-                    </strong>
-
-                    Online, ao vivo (Google Meet)
-
-                  </td>
-
-                </tr>
-
-
-              </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               GRUPO DO WHATSAPP
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding"
-              style="
-                padding:0 45px 18px;
-              "
-            >
-
-              <table
-                role="presentation"
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-              >
-
-                <tr>
-
-                  <td
-                    width="4"
-                    bgcolor="#00D923"
-                    style="
-                      width:4px;
-                      background-color:#00D923;
-                      border-radius:999px;
-                    "
-                  >
-                    &nbsp;
-                  </td>
-
-                  <td
-                    style="
-                      padding-left:15px;
-                      color:#171717;
-                      font-size:17px;
-                      line-height:25px;
-                    "
-                  >
-
-                    Entre no nosso grupo de WhatsApp para ficar
-                    <strong>
-                      totalmente informado
-                    </strong>
-                    sobre o evento.
-
-                  </td>
-
-                </tr>
-
-              </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               BOTÃO WHATSAPP
-          ================================ -->
-
-          <tr>
-
-            <td
-              align="center"
-              class="mobile-padding"
-              style="
-                padding:0 45px 40px;
-              "
-            >
-
-              <table
-                role="presentation"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-              >
-
-                <tr>
-
-                  <td
-                    align="center"
-                    bgcolor="#00D923"
-                    style="
-                      background-color:#00D923;
-                      border-radius:999px;
-                    "
-                  >
-
-                    <a
-                      href="https://chat.whatsapp.com/Cts5BIGpbGFC60n2BDYswV"
-                      target="_blank"
-                      class="botao-email"
-                      style="
-                        display:inline-block;
-                        padding:14px 38px;
-                        color:#ffffff;
-                        font-size:16px;
-                        line-height:20px;
-                        font-weight:700;
-                        text-decoration:none;
-                        border-radius:999px;
-                      "
-                    >
-                      Entrar no grupo
-                    </a>
-
-                  </td>
-
-                </tr>
-
-              </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               CONVITES
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding"
-              style="
-                padding:0 45px 18px;
-              "
-            >
-
-              <table
-                role="presentation"
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-              >
-
-                <tr>
-
-                  <td
-                    bgcolor="#08095B"
-                    align="center"
-                    style="
-                      background-color:#08095B;
-                      border-radius:999px;
-                      padding:10px 20px;
-                    "
-                  >
-
-                    <span
-                      style="
-                        color:#ffffff;
-                        font-size:20px;
-                        line-height:26px;
-                        font-weight:600;
-                      "
-                    >
-                      Você ganhou 3 convites
-                    </span>
-
-                  </td>
-
-                </tr>
-
-              </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- TEXTO DOS CONVITES -->
-
-          <tr>
-
-            <td
-              class="mobile-padding texto-principal"
-              style="
-                padding:0 45px 25px;
-                color:#171717;
-                font-size:17px;
-                line-height:27px;
-                text-align:center;
-              "
-            >
-
-              Pode chamar até
-              <strong>3 amigos hoteleiros</strong>
-              para participar com você,
-              <strong>também de graça.</strong>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               BOTÃO CONVIDAR
-          ================================ -->
-
-          <tr>
-
-            <td
-              align="center"
-              class="mobile-padding"
-              style="
-                padding:0 45px 38px;
-              "
-            >
-
-              <table
-                role="presentation"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-              >
-
-                <tr>
-
-                  <td
-                    align="center"
-                    bgcolor="#163DF4"
-                    style="
-                      border-radius:999px;
-                      background-color:#163DF4;
-                    "
-                  >
-
-                    <a
-                      href="LINK_PARA_CONVIDAR_AMIGOS"
-                      target="_blank"
-                      class="botao-email"
-                      style="
-                        display:inline-block;
-                        padding:14px 38px;
-                        color:#ffffff;
-                        font-size:16px;
-                        line-height:20px;
-                        font-weight:700;
-                        text-decoration:none;
-                        border-radius:999px;
-                      "
-                    >
-                      Convidar amigos
-                    </a>
-
-                  </td>
-
-                </tr>
-
-              </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               AVISO FINAL
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding"
-              style="
-                padding:0 45px 36px;
-              "
-            >
-
-              <table
-                role="presentation"
-                width="100%"
-                cellpadding="0"
-                cellspacing="0"
-                border="0"
-              >
-
-                <tr>
-
-                  <td
-                    width="4"
-                    bgcolor="#163DF4"
-                    style="
-                      width:4px;
-                      background-color:#163DF4;
-                      border-radius:999px;
-                    "
-                  >
-                    &nbsp;
-                  </td>
-
-                  <td
-                    class="texto-principal"
-                    style="
-                      padding-left:15px;
-                      color:#171717;
-                      font-size:16px;
-                      line-height:25px;
-                    "
-                  >
-
-                    <strong>
-                      Guarde a data.
-                    </strong>
-
-                    Qualquer novidade, avisamos por aqui
-                    e pelo WhatsApp.
-
-                  </td>
-
-                </tr>
-
-              </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               DIVISOR
-          ================================ -->
-
-          <tr>
-
-            <td
-              class="mobile-padding"
-              style="
-                padding:0 45px;
-              "
-            >
-
-              <div
-                style="
-                  width:100%;
-                  height:1px;
-                  background-color:#E8EAF3;
-                "
-              ></div>
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
-               REALIZAÇÃO
-          ================================ -->
-
-          <tr>
-
-            <td
-              align="center"
-              class="mobile-padding"
-              style="
-                padding:30px 45px 12px;
-                color:#737684;
-                font-size:12px;
-                line-height:18px;
-                text-transform:uppercase;
-                letter-spacing:1px;
-                font-weight:700;
-              "
-            >
-
-              Realização
-
-            </td>
-
-          </tr>
-
-
-          <!-- ===============================
+          <!-- =================================================
                LOGOS
-          ================================ -->
+          ================================================== -->
 
           <tr>
 
             <td
-              align="center"
               class="mobile-padding"
               style="
-                padding:5px 45px 20px;
+                padding:21px 38px;
+                background:#ffffff;
+                border-bottom:1px solid #eef1f7;
               "
             >
 
               <table
                 role="presentation"
+                width="100%"
                 cellpadding="0"
                 cellspacing="0"
-                border="0"
-                align="center"
               >
 
                 <tr>
 
-
-                  <!-- REGISTROU -->
-
                   <td
-                    align="center"
+                    width="60%"
                     valign="middle"
-                    style="
-                      padding:8px 18px;
-                    "
+                    align="left"
                   >
 
                     <img
-                      class="logo-realizacao"
-                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789136513/$t073galjf7o"
-                      alt="Registrou Consultoria Empresarial"
-                      width="150"
+                      class="logo-hotel"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$nv79tggesw8"
+                      alt="Hotel Blindado"
                       style="
-                        width:100%;
-                        max-width:150px;
+                        width:175px;
+                        max-width:175px;
                         height:auto;
                       "
                     >
@@ -824,70 +229,640 @@
                   </td>
 
 
-                  <!-- + -->
+                  <td
+                    width="40%"
+                    valign="middle"
+                    align="right"
+                  >
+
+                    <img
+                      class="logo-foco"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$bn2ae09mw7a"
+                      alt="Foco Tecnologia"
+                      style="
+                        width:105px;
+                        max-width:105px;
+                        height:auto;
+                        margin-left:auto;
+                      "
+                    >
+
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               INTRODUÇÃO
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:38px 42px 18px;
+                background:#ffffff;
+              "
+            >
+
+              <p
+                style="
+                  margin:0 0 10px;
+                  color:#417aff;
+                  font-size:11px;
+                  line-height:1.2;
+                  font-weight:600;
+                  letter-spacing:1px;
+                  text-transform:uppercase;
+                "
+              >
+                Evento online
+              </p>
+
+
+              <h1
+                class="main-title"
+                style="
+                  margin:0 0 16px;
+                  color:#09145d;
+                  font-size:31px;
+                  line-height:1.2;
+                  font-weight:700;
+                  letter-spacing:-0.8px;
+                "
+              >
+                Seu hotel está preparado para evitar problemas antes que eles apareçam?
+              </h1>
+
+
+              <p
+                class="main-text"
+                style="
+                  margin:0;
+                  color:#68738f;
+                  font-size:15px;
+                  line-height:1.7;
+                  font-weight:400;
+                "
+              >
+                Na rotina hoteleira, pequenas falhas em processos,
+                escalas, jornadas e gestão de equipes podem gerar
+                consequências muito maiores do que parecem.
+              </p>
+
+
+              <p
+                class="main-text"
+                style="
+                  margin:14px 0 0;
+                  color:#68738f;
+                  font-size:15px;
+                  line-height:1.7;
+                  font-weight:400;
+                "
+              >
+                O <strong style="color:#09145d;">Hotel Blindado</strong>
+                foi criado para ajudar gestores e hoteleiros a reconhecer
+                esses pontos de atenção e entender como organizar melhor
+                a operação antes que o problema chegue.
+              </p>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               DATA / HORÁRIO / FORMATO
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:20px 42px 22px;
+              "
+            >
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="
+                  background:#09145d;
+                  border-radius:16px;
+                "
+              >
+
+                <tr>
+
+
+                  <!-- DATA -->
 
                   <td
+                    width="33.33%"
+                    class="info-column"
                     valign="middle"
                     style="
-                      color:#D0D3DF;
-                      font-size:25px;
-                      padding:0 4px;
+                      padding:20px 16px 20px 20px;
                     "
                   >
-                    +
+
+                    <p
+                      style="
+                        margin:0 0 5px;
+                        color:#8fa8ff;
+                        font-size:10px;
+                        line-height:1.2;
+                        font-weight:600;
+                        text-transform:uppercase;
+                        letter-spacing:0.8px;
+                      "
+                    >
+                      Data
+                    </p>
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#ffffff;
+                        font-size:14px;
+                        line-height:1.4;
+                        font-weight:600;
+                      "
+                    >
+                      24 de setembro
+                    </p>
+
                   </td>
+
+
+                  <!-- HORÁRIO -->
+
+                  <td
+                    width="33.33%"
+                    class="info-column"
+                    valign="middle"
+                    style="
+                      padding:20px 16px;
+                    "
+                  >
+
+                    <p
+                      style="
+                        margin:0 0 5px;
+                        color:#8fa8ff;
+                        font-size:10px;
+                        line-height:1.2;
+                        font-weight:600;
+                        text-transform:uppercase;
+                        letter-spacing:0.8px;
+                      "
+                    >
+                      Horário
+                    </p>
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#ffffff;
+                        font-size:14px;
+                        line-height:1.4;
+                        font-weight:600;
+                      "
+                    >
+                      19h
+                    </p>
+
+                  </td>
+
+
+                  <!-- FORMATO -->
+
+                  <td
+                    width="33.33%"
+                    class="info-column"
+                    valign="middle"
+                    style="
+                      padding:20px 20px 20px 16px;
+                    "
+                  >
+
+                    <p
+                      style="
+                        margin:0 0 5px;
+                        color:#8fa8ff;
+                        font-size:10px;
+                        line-height:1.2;
+                        font-weight:600;
+                        text-transform:uppercase;
+                        letter-spacing:0.8px;
+                      "
+                    >
+                      Formato
+                    </p>
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#ffffff;
+                        font-size:14px;
+                        line-height:1.4;
+                        font-weight:600;
+                      "
+                    >
+                      Online
+                    </p>
+
+                  </td>
+
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               O QUE VOCÊ VAI ENCONTRAR
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:18px 42px 8px;
+                background:#ffffff;
+              "
+            >
+
+              <h2
+                style="
+                  margin:0 0 20px;
+                  color:#09145d;
+                  font-size:21px;
+                  line-height:1.35;
+                  font-weight:700;
+                "
+              >
+                O que você vai levar deste encontro:
+              </h2>
+
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+              >
+
+
+                <!-- ITEM 01 -->
+
+                <tr>
+
+                  <td
+                    valign="top"
+                    width="34"
+                    style="
+                      padding:0 12px 17px 0;
+                    "
+                  >
+
+                    <table
+                      role="presentation"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                    >
+
+                      <tr>
+
+                        <td
+                          align="center"
+                          valign="middle"
+                          style="
+                            width:26px;
+                            height:26px;
+                            background:#eaf0ff;
+                            border-radius:50%;
+                            color:#315cff;
+                            font-size:13px;
+                            font-weight:700;
+                          "
+                        >
+                          ✓
+                        </td>
+
+                      </tr>
+
+                    </table>
+
+                  </td>
+
+
+                  <td
+                    valign="top"
+                    style="
+                      padding:2px 0 17px;
+                      color:#4d5874;
+                      font-size:14px;
+                      line-height:1.6;
+                    "
+                  >
+                    Entender onde estão alguns dos principais
+                    riscos trabalhistas da rotina hoteleira.
+                  </td>
+
+                </tr>
+
+
+                <!-- ITEM 02 -->
+
+                <tr>
+
+                  <td
+                    valign="top"
+                    width="34"
+                    style="
+                      padding:0 12px 17px 0;
+                    "
+                  >
+
+                    <table
+                      role="presentation"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                    >
+
+                      <tr>
+
+                        <td
+                          align="center"
+                          valign="middle"
+                          style="
+                            width:26px;
+                            height:26px;
+                            background:#eaf0ff;
+                            border-radius:50%;
+                            color:#315cff;
+                            font-size:13px;
+                            font-weight:700;
+                          "
+                        >
+                          ✓
+                        </td>
+
+                      </tr>
+
+                    </table>
+
+                  </td>
+
+
+                  <td
+                    valign="top"
+                    style="
+                      padding:2px 0 17px;
+                      color:#4d5874;
+                      font-size:14px;
+                      line-height:1.6;
+                    "
+                  >
+                    Identificar situações do dia a dia que muitas
+                    vezes passam despercebidas pela gestão.
+                  </td>
+
+                </tr>
+
+
+                <!-- ITEM 03 -->
+
+                <tr>
+
+                  <td
+                    valign="top"
+                    width="34"
+                    style="
+                      padding:0 12px 0 0;
+                    "
+                  >
+
+                    <table
+                      role="presentation"
+                      cellpadding="0"
+                      cellspacing="0"
+                      border="0"
+                    >
+
+                      <tr>
+
+                        <td
+                          align="center"
+                          valign="middle"
+                          style="
+                            width:26px;
+                            height:26px;
+                            background:#eaf0ff;
+                            border-radius:50%;
+                            color:#315cff;
+                            font-size:13px;
+                            font-weight:700;
+                          "
+                        >
+                          ✓
+                        </td>
+
+                      </tr>
+
+                    </table>
+
+                  </td>
+
+
+                  <td
+                    valign="top"
+                    style="
+                      padding:2px 0 0;
+                      color:#4d5874;
+                      font-size:14px;
+                      line-height:1.6;
+                    "
+                  >
+                    Conhecer caminhos para estruturar processos
+                    e tomar decisões com mais segurança.
+                  </td>
+
+                </tr>
+
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               CTA
+          ================================================== -->
+
+          <tr>
+
+            <td
+              align="center"
+              class="mobile-padding"
+              style="
+                padding:34px 42px 42px;
+              "
+            >
+
+              <a
+                class="cta-button"
+                href="https://conteudo.registroumarcas.com.br/hotel-blindado"
+                target="_blank"
+                style="
+                  display:inline-block;
+                  padding:16px 30px;
+                  border-radius:50px;
+                  background:#315cff;
+                  color:#ffffff;
+                  font-size:14px;
+                  line-height:1.2;
+                  font-weight:700;
+                  text-decoration:none;
+                  box-shadow:0 12px 26px rgba(49,92,255,0.22);
+                "
+              >
+                Quero garantir minha participação
+              </a>
+
+
+              <p
+                style="
+                  margin:13px 0 0;
+                  color:#98a0b5;
+                  font-size:11px;
+                  line-height:1.5;
+                "
+              >
+                Clique no botão e faça sua inscrição.
+              </p>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               REALIZAÇÃO
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:26px 38px 30px;
+                background:#f7f8fc;
+                border-top:1px solid #edf0f6;
+                text-align:center;
+              "
+            >
+
+              <p
+                style="
+                  margin:0 0 18px;
+                  color:#8a93ac;
+                  font-size:10px;
+                  line-height:1;
+                  font-weight:600;
+                  letter-spacing:1.5px;
+                  text-transform:uppercase;
+                "
+              >
+                Realização
+              </p>
+
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+              >
+
+                <tr>
 
 
                   <!-- FOCO -->
 
                   <td
-                    align="center"
+                    width="50%"
+                    align="right"
                     valign="middle"
                     style="
-                      padding:8px 18px;
+                      padding-right:18px;
                     "
                   >
 
                     <img
-                      class="logo-realizacao"
-                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789134109/$a1eqaplc5ks"
+                      class="realizacao-logo"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$bn2ae09mw7a"
                       alt="Foco Tecnologia"
-                      width="125"
                       style="
-                        width:100%;
-                        max-width:125px;
+                        width:105px;
+                        max-width:105px;
+                        height:auto;
+                        margin-left:auto;
+                      "
+                    >
+
+                  </td>
+
+
+                  <!-- REGISTROU -->
+
+                  <td
+                    width="50%"
+                    align="left"
+                    valign="middle"
+                    style="
+                      padding-left:18px;
+                    "
+                  >
+
+                    <img
+                      class="realizacao-logo"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$1gnio3an39k"
+                      alt="Registrou Consultoria Empresarial"
+                      style="
+                        width:140px;
+                        max-width:140px;
                         height:auto;
                       "
                     >
 
                   </td>
 
+
                 </tr>
 
               </table>
-
-            </td>
-
-          </tr>
-
-
-          <!-- TEXTO DE PARCERIA -->
-
-          <tr>
-
-            <td
-              align="center"
-              class="mobile-padding"
-              style="
-                padding:0 45px 38px;
-                color:#737684;
-                font-size:12px;
-                line-height:19px;
-              "
-            >
-
-              Registrou Consultoria Empresarial,
-              em parceria com Foco Tecnologia.
 
             </td>
 
@@ -896,13 +871,11 @@
 
         </table>
 
-
       </td>
 
     </tr>
 
   </table>
-
 
 </body>
 </html>
