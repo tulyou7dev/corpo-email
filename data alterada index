@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hotel Blindado — Nova Data</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f3f5f9;
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+    }
+
+    img {
+      display: block;
+      border: 0;
+      max-width: 100%;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 620px) {
+
+      .email-container {
+        width: 100% !important;
+      }
+
+      .mobile-padding {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+      }
+
+      .main-title {
+        font-size: 27px !important;
+        line-height: 1.18 !important;
+      }
+
+      .main-text {
+        font-size: 14px !important;
+        line-height: 1.65 !important;
+      }
+
+      .info-column {
+        display: block !important;
+        width: 100% !important;
+        padding: 8px 0 !important;
+        text-align: left !important;
+      }
+
+      .logo-hotel {
+        width: 155px !important;
+      }
+
+      .logo-foco {
+        width: 90px !important;
+      }
+
+      .realizacao-logo {
+        width: 120px !important;
+        max-width: 120px !important;
+      }
+
+      .cta-button {
+        display: block !important;
+        width: auto !important;
+        text-align: center !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- PREHEADER -->
+
+  <div
+    style="
+      display:none;
+      font-size:1px;
+      color:#f3f5f9;
+      line-height:1px;
+      max-height:0;
+      max-width:0;
+      opacity:0;
+      overflow:hidden;
+    "
+  >
+    Já estava inscrito? Sua vaga continua garantida. O Hotel Blindado agora acontece dia 07/10, às 19h.
+  </div>
+
+
+  <table
+    role="presentation"
+    width="100%"
+    cellpadding="0"
+    cellspacing="0"
+    border="0"
+    style="background:#f3f5f9;"
+  >
+
+    <tr>
+
+      <td
+        align="center"
+        style="padding:30px 12px;"
+      >
+
+
+        <!-- =================================================
+             CONTAINER PRINCIPAL
+        ================================================== -->
+
+        <table
+          role="presentation"
+          width="600"
+          cellpadding="0"
+          cellspacing="0"
+          border="0"
+          class="email-container"
+          style="
+            width:600px;
+            max-width:600px;
+            background:#ffffff;
+            border-radius:22px;
+            overflow:hidden;
+            box-shadow:0 14px 40px rgba(8,20,70,0.08);
+          "
+        >
+
+
+          <!-- =================================================
+               BANNER CLICÁVEL
+          ================================================== -->
+
+          <tr>
+
+            <td
+              style="
+                padding:0;
+                background:#09145d;
+              "
+            >
+
+              <a
+                href="https://conteudo.registroumarcas.com.br/hotel-blindado"
+                target="_blank"
+                style="
+                  display:block;
+                  margin:0;
+                  padding:0;
+                "
+              >
+
+                <img
+                  src="https://d335luupugsy2.cloudfront.net/cms/files/126553/1790098389/$86l6ubtdhbk"
+                  alt="Hotel Blindado - Nova Data"
+                  width="600"
+                  style="
+                    display:block;
+                    width:100%;
+                    max-width:600px;
+                    height:auto;
+                    margin:0;
+                    padding:0;
+                  "
+                >
+
+              </a>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               LOGOS
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:20px 38px;
+                background:#ffffff;
+                border-bottom:1px solid #eef1f7;
+              "
+            >
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+              >
+
+                <tr>
+
+                  <td
+                    width="60%"
+                    valign="middle"
+                    align="left"
+                  >
+
+                    <img
+                      class="logo-hotel"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$nv79tggesw8"
+                      alt="Hotel Blindado"
+                      style="
+                        width:175px;
+                        max-width:175px;
+                        height:auto;
+                      "
+                    >
+
+                  </td>
+
+
+                  <td
+                    width="40%"
+                    valign="middle"
+                    align="right"
+                  >
+
+                    <img
+                      class="logo-foco"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$bn2ae09mw7a"
+                      alt="Foco Tecnologia"
+                      style="
+                        width:105px;
+                        max-width:105px;
+                        height:auto;
+                        margin-left:auto;
+                      "
+                    >
+
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               AVISO PRINCIPAL
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:38px 42px 18px;
+              "
+            >
+
+              <table
+                role="presentation"
+                cellpadding="0"
+                cellspacing="0"
+                border="0"
+              >
+
+                <tr>
+
+                  <td
+                    style="
+                      padding:7px 13px;
+                      border-radius:50px;
+                      background:#eef3ff;
+                      color:#315cff;
+                      font-size:10px;
+                      line-height:1;
+                      font-weight:700;
+                      letter-spacing:0.9px;
+                    "
+                  >
+                    MUDANÇA IMPORTANTE
+                  </td>
+
+                </tr>
+
+              </table>
+
+
+              <h1
+                class="main-title"
+                style="
+                  margin:16px 0 14px;
+                  color:#09145d;
+                  font-size:31px;
+                  line-height:1.2;
+                  font-weight:700;
+                  letter-spacing:-0.8px;
+                "
+              >
+                O Hotel Blindado tem uma nova data.
+              </h1>
+
+
+              <p
+                class="main-text"
+                style="
+                  margin:0;
+                  color:#68738f;
+                  font-size:15px;
+                  line-height:1.7;
+                  font-weight:400;
+                "
+              >
+                Precisamos avisar sobre uma mudança importante:
+                o evento foi remarcado.
+              </p>
+
+
+              <p
+                class="main-text"
+                style="
+                  margin:8px 0 0;
+                  color:#68738f;
+                  font-size:15px;
+                  line-height:1.7;
+                  font-weight:400;
+                "
+              >
+                O conteúdo e o formato continuam os mesmos.
+                <strong style="color:#09145d;">
+                  Só a data mudou.
+                </strong>
+              </p>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               NOVA DATA
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:20px 42px 24px;
+              "
+            >
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="
+                  background:#09145d;
+                  border-radius:18px;
+                "
+              >
+
+                <tr>
+
+                  <td
+                    colspan="3"
+                    style="
+                      padding:19px 20px 10px;
+                      color:#8fa8ff;
+                      font-size:10px;
+                      line-height:1;
+                      font-weight:700;
+                      letter-spacing:1.2px;
+                      text-transform:uppercase;
+                    "
+                  >
+                    Nova data
+                  </td>
+
+                </tr>
+
+
+                <tr>
+
+
+                  <!-- DATA -->
+
+                  <td
+                    width="42%"
+                    class="info-column"
+                    valign="top"
+                    style="
+                      padding:8px 10px 22px 20px;
+                    "
+                  >
+
+                    <p
+                      style="
+                        margin:0 0 5px;
+                        color:#8fa8ff;
+                        font-size:10px;
+                        line-height:1.2;
+                        font-weight:600;
+                        text-transform:uppercase;
+                        letter-spacing:0.7px;
+                      "
+                    >
+                      Data
+                    </p>
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#ffffff;
+                        font-size:16px;
+                        line-height:1.4;
+                        font-weight:700;
+                      "
+                    >
+                      07/10
+                    </p>
+
+                    <p
+                      style="
+                        margin:2px 0 0;
+                        color:#c9d3ff;
+                        font-size:11px;
+                        line-height:1.4;
+                      "
+                    >
+                      Quarta-feira
+                    </p>
+
+                  </td>
+
+
+                  <!-- HORÁRIO -->
+
+                  <td
+                    width="23%"
+                    class="info-column"
+                    valign="top"
+                    style="
+                      padding:8px 10px 22px;
+                    "
+                  >
+
+                    <p
+                      style="
+                        margin:0 0 5px;
+                        color:#8fa8ff;
+                        font-size:10px;
+                        line-height:1.2;
+                        font-weight:600;
+                        text-transform:uppercase;
+                        letter-spacing:0.7px;
+                      "
+                    >
+                      Horário
+                    </p>
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#ffffff;
+                        font-size:16px;
+                        line-height:1.4;
+                        font-weight:700;
+                      "
+                    >
+                      19h
+                    </p>
+
+                  </td>
+
+
+                  <!-- FORMATO -->
+
+                  <td
+                    width="35%"
+                    class="info-column"
+                    valign="top"
+                    style="
+                      padding:8px 20px 22px 10px;
+                    "
+                  >
+
+                    <p
+                      style="
+                        margin:0 0 5px;
+                        color:#8fa8ff;
+                        font-size:10px;
+                        line-height:1.2;
+                        font-weight:600;
+                        text-transform:uppercase;
+                        letter-spacing:0.7px;
+                      "
+                    >
+                      Formato
+                    </p>
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#ffffff;
+                        font-size:14px;
+                        line-height:1.4;
+                        font-weight:700;
+                      "
+                    >
+                      Online, ao vivo
+                    </p>
+
+                    <p
+                      style="
+                        margin:2px 0 0;
+                        color:#c9d3ff;
+                        font-size:11px;
+                        line-height:1.4;
+                      "
+                    >
+                      Google Meet
+                    </p>
+
+                  </td>
+
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               JÁ ESTÁ INSCRITO
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:8px 42px 12px;
+              "
+            >
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="
+                  background:#f5f7fc;
+                  border-radius:16px;
+                "
+              >
+
+                <tr>
+
+                  <td
+                    style="
+                      padding:20px 22px;
+                    "
+                  >
+
+                    <h2
+                      style="
+                        margin:0 0 8px;
+                        color:#09145d;
+                        font-size:17px;
+                        line-height:1.35;
+                        font-weight:700;
+                      "
+                    >
+                      Já está inscrito?
+                    </h2>
+
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#68738f;
+                        font-size:13.5px;
+                        line-height:1.65;
+                      "
+                    >
+                      Sua vaga continua garantida e
+                      <strong style="color:#09145d;">
+                        você não precisa se inscrever novamente.
+                      </strong>
+                      O conteúdo, o formato e o presente surpresa
+                      do final continuam os mesmos.
+                    </p>
+
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               AINDA NÃO SE INSCREVEU
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:4px 42px 10px;
+              "
+            >
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="
+                  border:1px solid #dfe7ff;
+                  border-radius:16px;
+                "
+              >
+
+                <tr>
+
+                  <td
+                    style="
+                      padding:20px 22px;
+                    "
+                  >
+
+                    <h2
+                      style="
+                        margin:0 0 8px;
+                        color:#09145d;
+                        font-size:17px;
+                        line-height:1.35;
+                        font-weight:700;
+                      "
+                    >
+                      Ainda não garantiu sua vaga?
+                    </h2>
+
+
+                    <p
+                      style="
+                        margin:0;
+                        color:#68738f;
+                        font-size:13.5px;
+                        line-height:1.65;
+                      "
+                    >
+                      O evento é
+                      <strong style="color:#09145d;">
+                        gratuito
+                      </strong>
+                      e conta com o patrocínio da
+                      <strong style="color:#09145d;">
+                        Foco Tecnologia.
+                      </strong>
+                    </p>
+
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               CTA PRINCIPAL
+          ================================================== -->
+
+          <tr>
+
+            <td
+              align="center"
+              class="mobile-padding"
+              style="
+                padding:26px 42px 34px;
+              "
+            >
+
+              <a
+                class="cta-button"
+                href="https://conteudo.registroumarcas.com.br/hotel-blindado"
+                target="_blank"
+                style="
+                  display:inline-block;
+                  padding:16px 31px;
+                  border-radius:50px;
+                  background:#315cff;
+                  color:#ffffff;
+                  font-size:14px;
+                  line-height:1.2;
+                  font-weight:700;
+                  text-decoration:none;
+                  box-shadow:0 12px 26px rgba(49,92,255,0.22);
+                "
+              >
+                Garantir minha vaga gratuita
+              </a>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               GRUPO DO WHATSAPP
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:0 42px 38px;
+              "
+            >
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+                style="
+                  background:#eef8f2;
+                  border-radius:14px;
+                "
+              >
+
+                <tr>
+
+                  <td
+                    style="
+                      padding:17px 20px;
+                      color:#52675b;
+                      font-size:12.5px;
+                      line-height:1.65;
+                    "
+                  >
+                    Qualquer novidade, vamos avisar por aqui
+                    e também pelo nosso grupo do WhatsApp.
+
+                    <br>
+
+                    Ainda não faz parte?
+
+                    <a
+                      href="https://chat.whatsapp.com/Cts5BIGpbGFC60n2BDYswV"
+                      target="_blank"
+                      style="
+                        color:#168a4c;
+                        font-weight:700;
+                        text-decoration:underline;
+                      "
+                    >
+                      Clique aqui e entre no grupo.
+                    </a>
+
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+          <!-- =================================================
+               REALIZAÇÃO
+          ================================================== -->
+
+          <tr>
+
+            <td
+              class="mobile-padding"
+              style="
+                padding:26px 38px 30px;
+                background:#f7f8fc;
+                border-top:1px solid #edf0f6;
+                text-align:center;
+              "
+            >
+
+              <p
+                style="
+                  margin:0 0 5px;
+                  color:#8a93ac;
+                  font-size:10px;
+                  line-height:1;
+                  font-weight:600;
+                  letter-spacing:1.5px;
+                  text-transform:uppercase;
+                "
+              >
+                Realização
+              </p>
+
+
+              <p
+                style="
+                  margin:0 0 19px;
+                  color:#a0a8bb;
+                  font-size:10px;
+                  line-height:1.5;
+                "
+              >
+                Registrou Consultoria Empresarial
+                em parceria com Foco Tecnologia
+              </p>
+
+
+              <table
+                role="presentation"
+                width="100%"
+                cellpadding="0"
+                cellspacing="0"
+              >
+
+                <tr>
+
+
+                  <!-- REGISTROU -->
+
+                  <td
+                    width="50%"
+                    align="right"
+                    valign="middle"
+                    style="
+                      padding-right:18px;
+                    "
+                  >
+
+                    <img
+                      class="realizacao-logo"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$1gnio3an39k"
+                      alt="Registrou Consultoria Empresarial"
+                      style="
+                        width:140px;
+                        max-width:140px;
+                        height:auto;
+                        margin-left:auto;
+                      "
+                    >
+
+                  </td>
+
+
+                  <!-- FOCO -->
+
+                  <td
+                    width="50%"
+                    align="left"
+                    valign="middle"
+                    style="
+                      padding-left:18px;
+                    "
+                  >
+
+                    <img
+                      class="realizacao-logo"
+                      src="https://d335luupugsy2.cloudfront.net/cms/files/836620/1789061165/$bn2ae09mw7a"
+                      alt="Foco Tecnologia"
+                      style="
+                        width:105px;
+                        max-width:105px;
+                        height:auto;
+                      "
+                    >
+
+                  </td>
+
+
+                </tr>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+
+        </table>
+
+      </td>
+
+    </tr>
+
+  </table>
+
+</body>
+</html>
